@@ -59,9 +59,17 @@ CREATE TABLE `services` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
+alter table services add column `icmp_ip` varchar(255) default NULL;
+alter table services add column `pop3_ip` varchar(255) default NULL;
+alter table services add column `smtp_ip` varchar(255) default NULL;
 
-
-
+CREATE TABLE `status` (
+  `id` int(255) NOT NULL auto_increment,
+  `service_id` int(11) default NULL,
+  `status` text,
+  `check_date` datetime default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=44 DEFAULT CHARSET=latin1;
 
 
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
