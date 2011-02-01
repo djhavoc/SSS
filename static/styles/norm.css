@@ -1,0 +1,112 @@
+body
+{
+    background:#c4c4c4;
+}
+
+#mainContent
+{
+	margin-top:25px;
+	padding-bottom:25px;
+    background:#ffffff;
+	
+	-moz-box-shadow: 5px 5px 5px #333333, 0px 0px 5px #B3B3B3; /* Firefox */
+	-webkit-box-shadow: 5px 5px 5px #333333, 0px 0px 5px #B3B3B3; /* Safari, Chrome */
+	box-shadow: 5px 5px 5px #333333, 0px 0px 5px #B3B3B3; /* CSS3 */
+	
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#header h1
+{
+	margin-top:5px;
+	font-family: 'Droid Sans';
+	font-size:28px;
+	color:#000;
+	text-shadow: 2px 2px 2px #888;
+}
+
+#settings
+{
+	margin-top:10px;
+}
+
+.checkModule
+{
+	margin:25px 0 0 25px;
+	background:#EEEEEE;
+	
+	-moz-box-shadow: 5px 5px 5px #333333, 0px 0px 5px #B3B3B3; /* Firefox */
+	-webkit-box-shadow: 5px 5px 5px #333333, 0px 0px 5px #B3B3B3; /* Safari, Chrome */
+	box-shadow: 5px 5px 5px #333333, 0px 0px 5px #B3B3B3; /* CSS3 */
+	
+}
+
+.checkName
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	font-family: 'Droid Sans';
+	font-size:14px;
+	color:#000;
+	text-shadow: 1px 1px 1px #888;
+	text-align:left;
+}
+
+.checkTable th
+{
+	margin-bottom:5px;
+	padding-left:10px;
+	font-family: 'Droid Sans';
+	font-size:12px;
+	color:#000;
+	text-shadow: 1px 1px 1px #888;
+	text-align:left;
+}
+
+.checkTable
+{
+	margin-bottom:10px;
+	margin-right:10px;
+}
+
+.checkTable tr
+{
+	margin-bottom:10px;
+	margin-right:10px;
+	border-bottom:1px solid #ccc;
+}
+
+.checkTable tbody tr:hover
+{
+	background-color:#999;
+}
+
+.checkTable td
+{
+	text-align:left;
+	font-size:12px;
+	padding-left:10px;
+}
+
+#launcherbutton
+{
+	margin-left:25px;
+	margin-right:15px;
+}
+
+#launcherbutton img
+{
+	margin:15px 0 10px 0;
+}
+#dhtmltooltip{
+position: absolute;
+width: 150px;
+border: 2px solid black;
+padding: 2px;
+background-color: lightyellow;
+visibility: hidden;
+z-index: 100;
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
